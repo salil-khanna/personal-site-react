@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Salil",
   middleName: "",
   lastName: "Khanna",
-  message: " Software Engineer, Professional Procrastinator, and Coffee Addict. ",
+  message: " Software Engineer, Public Transit Enjoyer, and Matcha Addict.",
   icons: [
     {
       image: "fa-github",
@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/nycProfilePic3.jpg"),
   imageSize: 375,
   message:
-    "My name is Salil Khanna. I’m graduating from Northeastern University (Boston) in 2023, I'm based in the New York City Area, and I'm a huge lover of learning. I'm currently seeking out Software Engineering Internships for Winter and Summer 2023.",
+    "My name is Salil Khanna. I’m a developer on the backend of Outlook Copilot at Microsoft, working remote from Boston. I'm a huge lover of learning!",
   resume: "/documents/resume.pdf",
 };
 
@@ -64,8 +64,8 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "salil-khanna", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["northeastern-checklist", "northeastern-checklist-flask", "Draw-Note", "salad-spinner"],
-  demoLinkArray: ["https://northeasternchecklist.com/", "https://northeasternchecklist.com/", "https://youtu.be/oNP--bx7L1k", "https://salad-spinner.netlify.app/"],
+  specificRepos: ["gallerygrade-frontend", "gallerygrade-backend", "northeastern-checklist", "northeastern-checklist-flask", "Draw-Note", "salad-spinner"],
+  demoLinkArray: ["https://gallerygrade.netlify.app/", "https://gallerygrade.netlify.app/", "https://thenortheasternchecklist.netlify.app/", "https://thenortheasternchecklist.netlify.app/", "https://youtu.be/oNP--bx7L1k", "https://salad-spinner.netlify.app/"],
 };
 
 // Leadership SECTION
@@ -123,7 +123,7 @@ const getInTouch = {
   show: true,
   heading: "Contact Me",
   message:
-    "I'm currently looking for Software Engineering intern opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm open to any and all opportunities to learn and grow! If you have any opportunities, any questions, or if you just want to say hi, please feel free to email me at",
   email: "salilkhannawork@gmail.com",
 };
 
@@ -132,11 +132,20 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: 'Software Engineer', //Microsoft
+      width: '60%',
+      height: '60%',
+      companylogo: require('../assets/img/microsoft.jpeg'),
+      date: 'July 2023 – Present',
+      info: "*LLMs *C# *.NET *Outlook Copilot",
+      link: "https://copilot.cloud.microsoft/en-us/copilot-outlook",
+    },
+    {
       role: 'Software Engineer Intern',// Datadog
       width: '25%',
       height: '25%',
       companylogo: require('../assets/img/datadog.png'),
-      date: 'Sept 2022 – Present',
+      date: 'Sept 2022 – Dec 2022',
       info: "*GoLang *Kafka *Real Time Usage",
       link: "https://www.datadoghq.com",
     },
@@ -147,7 +156,7 @@ const experiences = {
       companylogo: require('../assets/img/microsoft.jpeg'),
       date: 'May 2022 – Aug 2022',
       info: "*C# *.NET *Outlook Notifications",
-      link: "https://www.microsoft.com",
+      link: "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
     },
     {
       role: 'Technology Analyst Co-op',// Fidelity
@@ -157,16 +166,7 @@ const experiences = {
       date: 'July 2021 – Dec 2021',
       info: "*Python *Cloud *API Calls",
       link: "https://www.fidelity.com",
-    },
-    {
-      role: 'Teaching Assistant',// Northeastern
-      width: '60%',
-      height: '60%',
-      companylogo: require('../assets/img/northeastern.png'),
-      date: 'Jan 2020 – May 2022',
-      info: "*Engineering *OOD *Co-op",
-      link: "https://www.northeastern.edu",
-    },
+    }
   ]
 }
 

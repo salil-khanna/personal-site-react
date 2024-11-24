@@ -50,11 +50,16 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
           <p className="lead text-center">
-          My name is Salil Khanna. I’m graduating from <a href="https://www.northeastern.edu" target="_blank" rel="noreferrer">Northeastern University (Boston)</a> in 2023, 
-          I'm based in the <a href="https://www.nyc.gov" target="_blank" rel="noreferrer"> New York City</a>, and I'm a huge lover of <a href= "https://www.youtube.com/watch?v=jksPhQhJRoc" target="_blank" rel="noreferrer">learning</a>. 
+          My name is Salil Khanna. I'm a Software Engineer on the backend of <a href="https://copilot.cloud.microsoft/en-us/copilot-outlook" target="_blank" rel="noreferrer"> Outlook Copilot </a> at Microsoft, 
+          working remote from <a href="https://www.boston.gov" target="_blank" rel="noreferrer"> Boston</a>. 
+          I'm a huge lover of <a href= "https://www.youtube.com/watch?v=jksPhQhJRoc" target="_blank" rel="noreferrer">learning</a> (currently 
+          doing my Masters in CS at <a href= "https://www.gatech.edu/" target="_blank" rel="noreferrer">Georgia Tech</a>)
+          and I'm always looking for new opportunities to grow.
           <br/>
           <br/>
-          I'm currently seeking out Software Engineering Internships for Winter and Summer 2023.
+          Also a huge public transit and bike infrastructure advocate :) 
+          <br/>
+          🚃 🚂 🚄 🚈 🚋 🚠 🚲
 
           </p>
           {resume && (
